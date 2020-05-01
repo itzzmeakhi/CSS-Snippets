@@ -1,0 +1,158 @@
+body {
+    background: linear-gradient(#74b9ff, #55efc4);
+}
+
+.penguin {
+    position: relative;
+    top: 50px;
+    height: 700px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.penguin-top {
+    position: relative;
+    top: 100px;
+    height: 160px;
+    width: 170px;
+    background-color: #2d3436;
+    border-radius: 60% 60% 70% 70%;
+    margin: 0 auto;
+}
+
+.penguin-top-body {
+    position: inherit;
+    top: 20px;
+    height: 130px;
+    width: 140px;
+    background-color: #ffffff;
+    border-radius: 60% 60% 60% 60%;
+    margin: 0 auto;
+}
+
+.penguin-bottom {
+    position: relative;
+    top: 70px;
+    height: 270px;
+    width: 200px;
+    background-color: #2d3436;
+    border-radius: 80% 80% 70% 70%;
+    margin: 0 auto;
+    z-index: 9999;
+}
+
+.penguin-bottom-body {
+    position: inherit;
+    top: -2%;
+    height: 270px;
+    width: 165px;
+    background-color: #ffffff;
+    border-radius: 80% 80% 70% 70%;
+    margin: 0 auto;
+}
+
+/* .penguin-forehead {
+    position: relative;
+    width: 10px;
+    height: 30px;
+    background-color: #2d3436;
+} */
+
+.penguin-eyes {
+    position: relative;
+    top: 40px;
+}
+
+.penguin-left-eye {
+    display: inline-block;
+    position: inherit;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #2d3436;
+}
+
+.penguin-right-eye {
+    display: inline-block;
+    position: inherit;
+    left: 80px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #2d3436;
+}
+
+.penguin-nose {
+    position: relative;
+    top: 50px;
+    left: 45px;
+    width: 40px;
+    height: 35px;
+    border-radius: 70% 70% 100% 100%;
+    background-color: #feca57;
+}
+
+.penguin-hands {
+    position: inherit;
+    top: -220px;
+}
+
+.penguin-left-hand {
+    position: inherit;
+    left: -25px;
+    display: inline-block;
+    width: 35px;
+    height: 150px;
+    transform: rotate(25deg);
+    border-radius: 100%;
+    background-color: #2d3436;
+}
+
+.penguin-right-hand {
+    position: inherit;
+    left: 152px;
+    display: inline-block;
+    width: 35px;
+    height: 150px;
+    transform: rotate(-25deg);
+    border-radius: 100%;
+    background-color: #2d3436;
+}
+
+.penguin-feet {
+    position: inherit;
+    top: -170px;
+}
+
+.penguin-left-foot {
+    position: inherit;
+    display: inline-block;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100% 100% 60% 60%;
+    background-color: #feca57;
+}
+
+.penguin-right-foot {
+    position: inherit;
+    display: inline-block;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100% 100% 60% 60%;
+    background-color: #feca57;
+}
+
+.bottom {
+    position: relative;
+    top: -210px;
+    width: 550px;
+    height: 150px;
+    background-color: #576574;
+    border-radius: 60%;
+    opacity: 0.4;
+    z-index: 9998;
+    margin: 0 auto;
+}
